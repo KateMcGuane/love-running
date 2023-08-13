@@ -54,6 +54,10 @@ h1 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* Navbar styles with dropdown toggle */
+
+
 /* Main */
 main {
     background-color: lightblue;
