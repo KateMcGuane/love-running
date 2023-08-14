@@ -56,7 +56,10 @@ h1 {
 }
 
 /* Navbar styles with dropdown toggle */
-
+nav {
+    position: absolute;
+    background-color: #ffffff;
+}
 
 /* Main */
 main {
