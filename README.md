@@ -255,3 +255,18 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 - [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template)
 - [Microsoft Unzipping File Steps](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)
 - [MacOS Inzipping File Steps](https://support.apple.com/en-ie/guide/mac-help/mchlp2528/mac)
+
+
+## Useful Shortcuts
+
+| Objective | Windows | Mac |
+| --- | --- | --- |
+| Hard Refresh | Ctrl + Shift + R | Command + Shift + R |
+
+
+## Useful Commands
+
+| Objective | Terminal |
+| --- | --- |
+ | Open live server | python3 -m http.server |
+ | Commit Message | git add . <br> git commit -m "Commit message" |
