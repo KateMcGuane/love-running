@@ -140,13 +140,14 @@ The website is designed with three separate pages. This is to ensure ease of use
 
   ### Libraries & Programs Used
 
-*SAMPLE*
+*The following are samples of useful tools used*
   - [Am I Responsive?](http://ami.responsivedesign.is/) - To demonstrate the website on a range of devices.
   - [Balsamiq](https://balsamiq.com/) - To create wireframes.
   - [Canva](https://www.canva.com/) - To create favicon image.
   - [Chat GPT](https://chat.openai.com/) - To create written content & general consultation when troubleshooting.
   - [Codeanywhere](https://codeanywhere.com/) - Initial IDE used; transferred to VS Code midway.
   - [Coolors](https://coolors.co/) - To create colour palettes.
+  - [Diffchecker](https://www.diffchecker.com/) - To compare segments of code.
   - [Favicon.io](https://favicon.io/favicon-converter/) - To convert favicon image into suitable sizes.
   - [Font Awesome](https://fontawesome.com/) - To create paintbrush icon in header.
   - [GitHub](https://github.com/) - To store associated files & developments of the website.
@@ -224,6 +225,12 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   - Did you follow a video tutorial?
   - Was there a template you used?
 
+<details><summary>Favicon Code</summary>
+
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  </details>
 
   ### Content
 
@@ -241,3 +248,10 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
   ###  Acknowledgments
 
+---
+
+## Useful References
+
+- [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template)
+- [Microsoft Unzipping File Steps](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)
+- [MacOS Inzipping File Steps](https://support.apple.com/en-ie/guide/mac-help/mchlp2528/mac)
