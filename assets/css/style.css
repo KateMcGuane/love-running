@@ -83,18 +83,18 @@ nav {
 }
 
 #nav-toggle {
-    display: none;
+    display: none; /* hides checkbox */
 }
 
 .nav-toggle-label{
-    font-size: 2rem;
+    font-size: 2rem; /* enlargen label so it's easy to tap */
 }
     
 /* Main */
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 47px; /* header position is fixed; margin-top allows us to see main content */
 }
 
 /* Hero section */
@@ -123,35 +123,36 @@ main {
 @media screen and (min-width: 768px){
     /* Header */
     nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        display: block; /* ensures nav bar is always displayed */
+        position: relative; /* Keeps it insdie the header */
+        box-shadow: none; /* no longer needed */
+        width: fit-content; /* no longer takes up all space in header */
+        padding-right: 1rem; /* so menu items are not on edge of screen */
     }
 
     #menu {
-        display: flex;
+        display: flex; /* links all show in a row */
     }
 
     #menu > li {
-        padding-left: 1rem;
+        padding-left: 1rem; /* giving space */
     }
 
     .nav-toggle-label {
-        display: none; 
+        display: none; /* hide checkbox */
     }
-
+    
+    /* Make bigger impact for size */
     #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+        font-size: 280%; /* more space available */
+        line-height: 75px; /* more space at top */
+        margin: 0 0.5rem; /* margin space left & right */
     }
 
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 79px;
+        margin-top: 79px; /* bigger than the mobile size we put in */
     }
 
 }
@@ -159,6 +160,6 @@ main {
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #3a3a3a; /* line appears under hovered item */
     }
 }
