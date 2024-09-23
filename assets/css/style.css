@@ -1,4 +1,4 @@
- /* Google font imports */
+/* Google font imports */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -10,9 +10,9 @@
 
 /* General styles */
 body {
-    min-height: 100vh;
+    min-height: 100vh; /* allows it to stretch larger than height of the screen */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* elements will stack on top of one another */
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
@@ -21,29 +21,32 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index:99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    background-color: #ffffff; 
+    padding: 0 1rem; /* prevent text from sticking to side of scrren */
+    position: fixed; /* want nav bar to scroll along */
+    z-index:99; /* make sure it's layered on top of other elements */
+    width: 100%; /* fills width of screen */
+    box-shadow: 0 2px 2px #3a3a3a; /* indicates layers */
+    /* The following aligns burger icon & navbar */
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: baseline; /* show in a line vertically */
 }
 
+/* for any a tag, descendant of header */
 header a {
     text-decoration: none;
-    color: inherit;
+    color: inherit; /* will inherit from body */
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2px; /* breathing space between letters */
     color: #252525;
 }
 
+/* Navigation menu */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -51,26 +54,30 @@ h1 {
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    margin-bottom: 1em; /* spacing between nav items */
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a; /* visual cue to show user what page they're on */
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
-    background-color: #ffffff;
+    position: absolute; /* takes an element outside normal flow; positioned relative to nearest ancestor */
+    background-color: #ffffff; /* give same background colour so it looks like single object when opened */
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
+    display: none; /* keeps nav bar elements hidden until clicked */
+    top: 100%; /* tells nav element the top o fthe element should start at the bottom of its parent */
 }
 
 /* Nav toggle */
+/* 
+* Using a checkbox with pseudo class that indicates when they are checked
+* ~ indicates we want to target  adjoining nav element
+*/
 #nav-toggle:checked~nav {
     display: block;
 }

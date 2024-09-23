@@ -140,7 +140,7 @@ The website is designed with three separate pages. This is to ensure ease of use
 
   ### Libraries & Programs Used
 
-*The following are samples of useful tools used*
+*The following is a comprehnsive list of useful tools you can use for a project like this:*
   - [Am I Responsive?](http://ami.responsivedesign.is/) - To demonstrate the website on a range of devices.
   - [Balsamiq](https://balsamiq.com/) - To create wireframes.
   - [Canva](https://www.canva.com/) - To create favicon image.
@@ -156,6 +156,12 @@ The website is designed with three separate pages. This is to ensure ease of use
   - [Raw Pixel](https://www.rawpixel.com/) - For images.
   - [VS Code](https://code.visualstudio.com/) - Primary IDE used.
 
+ ### Alternatives
+
+ Fonts
+ - [fontjoy.com](https://fontjoy.com/)
+ - [fontpair.co](https://www.fontpair.co/all)
+ - [typ.io](https://typ.io/)
 
 ---
 
@@ -250,21 +256,41 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
 ---
 
-## Useful References
+## NOTES
+
+<details><summary>Terminologies</summary>
+- Real estate = Valuable space on the screen
+</details>
+
+<details><summary>CSS Styling Properties</summary>
+
+[box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+      header {
+        box-shadow: 0 2px 2px #3a3a3a;
+      }
+
+  - 0 - horizontal offset: negative values offset to the left, positive ones to the right; our header is set to full width so use 0.
+  - 2px - vertical offset (mandatory): positive value will display the shadow below the element, a negative above; 2px gives a small shadow.
+  - 2px - blur: how soft/hard you want the shadow.
+  - #3a3a3a - colour value: if you don't want default of black.
+</details>
+
+### Useful References
 
 - [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template)
 - [Microsoft Unzipping File Steps](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)
 - [MacOS Inzipping File Steps](https://support.apple.com/en-ie/guide/mac-help/mchlp2528/mac)
 
 
-## Useful Shortcuts
+### Useful Shortcuts
 
 | Objective | Windows | Mac |
 | --- | --- | --- |
 | Hard Refresh | Ctrl + Shift + R | Command + Shift + R |
 
 
-## Useful Commands
+### Useful Commands
 
 | Objective | Terminal |
 | --- | --- |
