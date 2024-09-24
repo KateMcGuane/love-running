@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 /* General styles */
 body {
     min-height: 100vh; /* allows it to stretch larger than height of the screen */
@@ -89,7 +90,8 @@ nav {
 .nav-toggle-label{
     font-size: 2rem; /* enlargen label so it's easy to tap */
 }
-    
+
+
 /* Main */
 main {
     /* Make main element take up any surplus space to push footer down */
@@ -104,20 +106,23 @@ main {
     background: url("../images/love-running-hero-image.webp") no-repeat center center/cover;
 }
 
+
 /* Footer*/
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
+    text-align: center; /* center icons */
+    padding: 20px 0; /* add some vertical breathing space */
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+    justify-content: space-evenly; /* space icons evenly */
+    list-style-type: none; /* removes bullet points */
 }
 
+/* targets all i element descendants of social network list */
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
+    font-size: 160%; /* enlargen icon */
+    padding: 5%; /* extra space around icon */
     color: #3a3a3a;
 }
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
