@@ -149,7 +149,7 @@ The website is designed with three separate pages. This is to ensure ease of use
   - [Coolors](https://coolors.co/) - To create colour palettes.
   - [Diffchecker](https://www.diffchecker.com/) - To compare segments of code.
   - [Favicon.io](https://favicon.io/favicon-converter/) - To convert favicon image into suitable sizes.
-  - [Font Awesome](https://fontawesome.com/) - To create paintbrush icon in header.
+  - [Font Awesome](https://fontawesome.com/) - To source any icons used.
   - [GitHub](https://github.com/) - To store associated files & developments of the website.
   - [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - For troubleshooting and testing features, styling and responsiveness.
   - [Google Fonts](https://codeanywhere.com/signin) - To extract fonts for the website.
@@ -276,11 +276,25 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   - #3a3a3a - colour value: if you don't want default of black.
 </details>
 
+
 ### Useful References
 
 - [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template)
 - [Microsoft Unzipping File Steps](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)
 - [MacOS Inzipping File Steps](https://support.apple.com/en-ie/guide/mac-help/mchlp2528/mac)
+
+
+### Code Explained
+
+- Adding links to external sites
+
+      target = "_blank"
+
+  - opens website in new tab
+
+- Protect from possible attack
+
+      rel = "noopener"
 
 
 ### Useful Shortcuts
